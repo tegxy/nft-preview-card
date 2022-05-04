@@ -1,0 +1,167 @@
+body {
+	width: 100%;
+	height: 100vh;
+	margin: 0px;
+	font-family: "outfit", sans-serif;
+}
+
+main {
+	width: 100%;
+	height: 100%;
+	background-color: hsl(217, 54%, 11%);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	justify-content: space-around;
+}
+
+a {
+	text-decoration: none;
+	color: hsl(0, 0%, 100%);
+}
+
+a:hover {
+	color: hsl(178, 100%, 50%);
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+section {
+	width: 18em;
+	border-radius: 2em;
+	background-color: hsl(214, 58%, 10%);
+	padding: 1em;
+}
+article {
+	width: 17em;
+	height: 28em;
+	background-color: hsl(216, 50%, 16%);
+	border-radius: 1em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0.6em;
+}
+
+#double-image {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 1em;
+	background-color: hsl(178, 100%, 50%);
+	position: relative;
+}
+
+.hidden {
+	width: 3em;
+	position: absolute;
+}
+
+.equilibrium {
+	width: 16em;
+	border-radius: 1em;
+	z-index: 2;
+}
+
+.equilibrium:hover {
+	opacity: 0.4;
+}
+
+#content {
+	padding: 0em 0.7em;
+}
+
+h1 {
+	color: hsl(0, 0%, 100%);
+	width: 100%;
+}
+
+h1:hover {
+	color: hsl(178, 100%, 50%);
+}
+
+.text {
+	margin: 0px;
+	color: hsl(0, 0%, 100%);
+	opacity: 0.4;
+	font-size: 0.9em;
+}
+
+#crypto {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	border-bottom: 1px solid;
+	margin-bottom: 0.2em;
+}
+
+.ethereum {
+	width: 0.6em;
+}
+
+.clock {
+	width: 0.8em;
+}
+
+.figure {
+	color: hsl(178, 100%, 50%);
+	font-size: 0.8em;
+}
+
+.time-left {
+	color: hsl(0, 0%, 100%);
+	opacity: 0.3;
+	font-size: 0.8em;
+}
+
+#creator {
+	color: hsl(0, 0%, 100%);
+	width: 100%;
+	margin: auto 0px;
+	display: flex;
+	font-size: 0.8em;
+}
+
+.avatar {
+	width: 2.5em;
+	height: 2.5em;
+	border: 1px solid hsl(0, 0%, 100%);
+	border-radius: 50%;
+	margin: auto 0.9em auto 0px;
+}
+
+.opac {
+	opacity: 0.3;
+}
+
+.attribution {
+	max-width: 27.5em;
+	width: 90%;
+	text-align: center;
+}
+
+@media (max-width: 290px) {
+	main {
+		display: grid;
+		place-items: center;
+	}
+
+	section {
+		width: 84%;
+	}
+
+	article {
+		width: 80%;
+		height: auto;
+		margin: auto;
+	}
+
+	.equilibrium {
+		width: 100%;
+	}
+}

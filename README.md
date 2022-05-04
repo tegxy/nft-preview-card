@@ -37,7 +37,7 @@ What I learned Being that I'm still learning frontend development, I was able wo
 - Udemy - https://www.udemy.com/course-dashboard-redirect/?course_id=764164 -
 
 ### Author
-- Website - Tega Lucky-Fiakpa (https://heisenberg-qr-code.nft-preview-card.app/)
+- Website - Tega Lucky-Fiakpa (https://heisenberg-nft-preview-card.netlify.app/)
 - Frontend Mentor - @tegxy(https://www.frontendmentor.io/profile/tegxy)
 - Twitter - @tegxy(https://www.twitter.com/tegxy)
 
